@@ -1,61 +1,60 @@
 .container {
-    display: flex;
-
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-h1 {
-    display: block;
-    margin: 50px;
+.header-1 {
+  display: block;
+  margin: 10px;
 }
 .text {
-    display: block;
-    height: 100px;
+  display: block;
+  height: 100px;
 }
 
 .input::placeholder {
-    padding: 0px;
+  padding: 0px;
 }
 .image {
-    background-color: blackblue;
-    display: flex;
-    flex: 1;
+  background-color: blackblue;
+  display: flex;
+  flex: 1;
 }
 .field {
-    margin-bottom: 5px;
-
+  margin-bottom: 5px;
 }
 .form-section {
-    display: flex;
-    border: solid;
-    flex: 1;
-    padding: 30px;
-    margin: 30px;
-    height: 200px;
-    border-radius: 15px;
-    border-color: rgba(24, 16, 16, 0.582);
-    border-width: 3px;
-    max-width: 500px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  flex: 1;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 15px;
+  border-color: rgba(24, 16, 16, 0.582);
+  border-width: 3px;
+  max-width: 500px;
 }
 .submit-button {
-    background-color: white;
-    color: rgba(24, 16, 16, 0.582);
-    cursor: pointer;
-    border-radius: 3px;
-    border: solid;
-    margin-top: 10px;
-    padding: 5px;
-    border-width: 2px;
+  background-color: white;
+  color: rgba(24, 16, 16, 0.582);
+  cursor: pointer;
+  border-radius: 3px;
+  border: solid;
+  margin-top: 10px;
+  padding: 5px;
+  border-width: 2px;
 }
 .submit-button:hover {
-    background-color: rgba(24, 16, 16, 0.582);
-    color: white;
+  background-color: rgba(24, 16, 16, 0.582);
+  color: white;
 }
 .contactpage {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 .rest-food {
-    display: flex;
-    flex: 1;
-    width: 300px;
+  display: flex;
+  flex: 1;
+  width: 300px;
 }

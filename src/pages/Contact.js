@@ -1,5 +1,10 @@
+import ContactUs from "../components/ContactUs/ContactUs";
 const Contact = () => {
-  return <h1>Contact</h1>;
+  return (
+    <>
+      <ContactUs />
+    </>
+  );
 };
 
 export default Contact;
