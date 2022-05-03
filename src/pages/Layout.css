@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  padding: 20px 100px;
+  flex-wrap: wrap;
+}
+
+.navbar h1 span {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+nav {
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 20px;
+}
+
+nav ul li:first-child {
+  padding-left: 0;
+}
+
+nav ul li:last-child {
+  padding-right: 0;
+}
+nav ul li a:hover {
+  font-weight: bold;
+  color: orange;
+  padding-bottom: 3px;
+  border-bottom: 2px solid orange;
+}
+
+@media screen and (max-width: 720px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  nav {
+    margin: 20px 0 15px;
+  }
+}
