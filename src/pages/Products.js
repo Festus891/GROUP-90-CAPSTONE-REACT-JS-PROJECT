@@ -1,5 +1,12 @@
-const Products = () => {
-  return <h1>Products</h1>;
-};
+import ProductList from './ProductList'
 
+const Products = () => {
+  
+    return (
+        <div>
+            <ProductList products = {Products} />
+        </div>
+      );
+}
+ 
 export default Products;
